@@ -96,4 +96,9 @@ public class Main {
             k++;
         }
     }
+    static void quickSort(int[] arr, int lowIndex, int highIndex){
+        int pivot = arr[highIndex];
+        int rightPointer = highIndex;
+        int leftPointer = lowIndex;
+    }
 }
